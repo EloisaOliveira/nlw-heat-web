@@ -1,5 +1,10 @@
+import styles from './App.module.scss'
+import { MessageList } from './components/MessageList'
+
 export function App() {
   return (
-    <h1>Hello World</h1>
+    <main className={styles.contentWrapper}>
+      <MessageList />
+    </main>
   )
 }
